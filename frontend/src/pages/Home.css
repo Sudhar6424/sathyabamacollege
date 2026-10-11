@@ -83,7 +83,7 @@
   height: 74%;
   box-sizing: border-box;
   background: url("/assets/branding/pokeball.png") center/contain no-repeat;
-  animation: home-brand-spin 3.2s linear infinite;
+  animation: home-brand-spin 8s linear infinite;
   will-change: transform;
 }
 
