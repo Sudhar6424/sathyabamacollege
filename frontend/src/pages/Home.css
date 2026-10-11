@@ -81,8 +81,11 @@
   display: block;
   width: 87%;
   height: 87%;
+  margin-left: -1.12%;
+  margin-top: -0.56%;
   box-sizing: border-box;
   background: url("/assets/branding/pokeball.png") center/contain no-repeat;
+  transform-origin: 51.12% 50.56%;
   animation: home-brand-spin 8s linear infinite;
   will-change: transform;
 }
