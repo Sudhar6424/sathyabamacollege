@@ -13,7 +13,6 @@ import {
   Zap,
 } from "lucide-react";
 import { useEffect, useState } from "react";
-import { GOOGLE_REGISTRATION_FORM_URL } from "../config/registration";
 
 const TARGET_DATE = new Date("2026-11-04T10:30:00+05:30").getTime();
 
@@ -74,7 +73,7 @@ function HeroContent({ countdown }) {
       <EventDetails />
 
       <div className="home-hero-actions">
-        <a href={GOOGLE_REGISTRATION_FORM_URL} target="_blank" rel="noopener noreferrer" className="home-hero-primary">START YOUR JOURNEY <ArrowRight size={16} /></a>
+        <a href="#rules" className="home-hero-primary">START YOUR JOURNEY <ArrowRight size={16} /></a>
         <a href="#rounds" className="home-hero-secondary">EXPLORE DEXATHON <Radar size={15} /></a>
       </div>
       <a href="#rules" className="home-hero-link">VIEW RULES <ArrowRight size={13} /></a>
