@@ -79,8 +79,8 @@
 .home-page .home-brand-ball {
   position: relative;
   display: block;
-  width: 95%;
-  height: 95%;
+  width: 87%;
+  height: 87%;
   box-sizing: border-box;
   background: url("/assets/branding/pokeball.png") center/contain no-repeat;
   animation: home-brand-spin 8s linear infinite;
