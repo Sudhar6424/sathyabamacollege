@@ -82,27 +82,14 @@
   width: 74%;
   height: 74%;
   box-sizing: border-box;
-  border: calc(var(--mark) * 0.04) solid #15161c;
-  border-radius: 50%;
-  background: linear-gradient(180deg, #ef3b3b 0 44%, #15161c 44% 56%, #f5f7fa 56%);
-  box-shadow: inset calc(var(--mark) * -0.05) calc(var(--mark) * -0.05) 0 rgba(0, 0, 0, 0.14);
+  background: url("/assets/branding/pokeball.png") center/contain no-repeat;
   animation: home-brand-spin 3.2s linear infinite;
   will-change: transform;
 }
 
 /* Center button: absolutely centered inside the ball, so it stays centered while spinning. */
 .home-page .home-brand-ball b {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 36%;
-  height: 36%;
-  box-sizing: border-box;
-  border: calc(var(--mark) * 0.04) solid #15161c;
-  border-radius: 50%;
-  background: #fff;
-  box-shadow: 0 0 0 calc(var(--mark) * 0.02) #f5f7fa;
-  transform: translate(-50%, -50%);
+  display: none;
 }
 
 @keyframes home-brand-spin {
