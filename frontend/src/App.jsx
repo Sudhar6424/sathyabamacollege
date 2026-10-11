@@ -38,8 +38,8 @@ function App() {
         </Route>
         <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminProtectedRoute section="dashboard"><AdminDashboard /></AdminProtectedRoute>} />
-        {/* <Route path="/admin/payment-history" element={<AdminProtectedRoute section="payments"><PaymentHistory /></AdminProtectedRoute>} />
-        <Route path="/admin/teams" element={<AdminProtectedRoute section="teams"><AdminTeams /></AdminProtectedRoute>} /> */}
+        <Route path="/admin/payment-history" element={<AdminProtectedRoute section="payments"><PaymentHistory /></AdminProtectedRoute>} /> 
+        <Route path="/admin/teams" element={<AdminProtectedRoute section="teams"><AdminTeams /></AdminProtectedRoute>} /> 
         <Route path="/admin/team-access" element={<AdminProtectedRoute section="teams"><AdminTeamAccess /></AdminProtectedRoute>} />
         <Route path="/admin/pdf-submissions" element={<AdminProtectedRoute section="pdf"><AdminPdfSubmissions /></AdminProtectedRoute>} />
         <Route path="/admin/rounds" element={<AdminProtectedRoute section="rounds"><AdminRounds /></AdminProtectedRoute>} />
