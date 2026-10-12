@@ -36,7 +36,7 @@ function App() {
         <Route element={<TeamProtectedRoute />}>
           <Route path="/team-dashboard" element={<TeamDashboard />} />
         </Route>
-        <Route path="/admin/login" element={<AdminLogin />} />
+        {/* <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminProtectedRoute section="dashboard"><AdminDashboard /></AdminProtectedRoute>} />
         <Route path="/admin/payment-history" element={<AdminProtectedRoute section="payments"><PaymentHistory /></AdminProtectedRoute>} /> 
         <Route path="/admin/teams" element={<AdminProtectedRoute section="teams"><AdminTeams /></AdminProtectedRoute>} /> 
@@ -45,7 +45,7 @@ function App() {
         <Route path="/admin/rounds" element={<AdminProtectedRoute section="rounds"><AdminRounds /></AdminProtectedRoute>} />
         <Route path="/admin/round-selection" element={<AdminProtectedRoute section="rounds"><AdminRoundSelection /></AdminProtectedRoute>} />
         <Route path="/admin/payment-settings" element={<AdminProtectedRoute section="paymentSettings"><AdminPaymentSettings /></AdminProtectedRoute>} />
-        <Route path="/admin/users" element={<AdminProtectedRoute section="users"><AdminUsers /></AdminProtectedRoute>} />
+        <Route path="/admin/users" element={<AdminProtectedRoute section="users"><AdminUsers /></AdminProtectedRoute>} /> */}
       </Routes>
     </BrowserRouter>
   );
