@@ -40,7 +40,7 @@ const tabs = [
     label: "FINAL 24H SPRINT",
     icon: Award,
     rules: [
-      { badge: "4–5 NOV 2026", title: "Physical On-Campus Event", text: "The final round is a 24-hour on-campus hackathon conducted at the Indoor Auditorium, Sathyabama Institute of Science and Technology, Chennai." },
+      { badge: "4–5 NOV 2026", title: "Physical On-Campus Event", text: "The final round is a 24-hour on-campus hackathon conducted at the Dr. Remibai Jeppiaar Auditorium - Hall No. 01, Sathyabama Institute of Science and Technology, Chennai." },
       { badge: "₹250 / Participant", title: "Final Round Fee Calculation", text: "Registration fee for final round qualifiers is ₹250 per participant (₹1,000 for 4 members, ₹1,250 for 5 members, ₹1,500 for 6 members)." },
       { badge: "Live 24H Build", title: "Code Development Protocol", text: "Major feature development and integration must take place within the 24-hour hackathon window. Standard open-source libraries and APIs are permitted." },
       { badge: "Live Demo", title: "Live Judging & Valedictory", text: "Teams must demonstrate their solution live to the panel of industry & academic judges. Winners will be crowned at the Valedictory function on 5 Nov at 10:30 AM." },

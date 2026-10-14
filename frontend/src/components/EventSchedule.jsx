@@ -227,7 +227,7 @@ export default function EventSchedule() {
 
           <div>
             <span>FINAL ROUND VENUE</span>
-            <strong>INDOOR AUDITORIUM</strong>
+            <strong>Dr. Remibai Jeppiaar Auditorium - Hall No. 01</strong>
             <small>
               Sathyabama Institute of Science and Technology, Chennai
             </small>

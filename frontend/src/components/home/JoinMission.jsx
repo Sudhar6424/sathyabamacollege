@@ -17,7 +17,7 @@ const plans = [
     price: "₹250",
     unit: "/ person",
     text: "Payable only after qualifying through Rounds 1 & 2 to confirm your physical finalist slot at Sathyabama campus.",
-    points: ["Team Size: 4–6 Members", "24-Hour Physical Hackathon at Indoor Auditorium", "Food, Midnight Snacks & Accommodation Provided", "Physical Certificates for Final-Round Qualified Teams"],
+    points: ["Team Size: 4–6 Members", "24-Hour Physical Hackathon at Dr. Remibai Jeppiaar Auditorium - Hall No. 01", "Food, Midnight Snacks & Accommodation Provided", "Physical Certificates for Final-Round Qualified Teams"],
     tone: "cyan",
   },
 ];

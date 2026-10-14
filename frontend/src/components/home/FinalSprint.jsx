@@ -2,7 +2,7 @@ import { Award, CalendarDays, CircleCheck, FileText, MapPin, Music, Package, Use
 
 const facts = [
   { label: "EVENT DATES", value: "4–5 NOVEMBER 2026", icon: CalendarDays },
-  { label: "OFFICIAL VENUE", value: "INDOOR AUDITORIUM, SATHYABAMA", icon: MapPin },
+  { label: "OFFICIAL VENUE", value: "Dr. Remibai Jeppiaar Auditorium - Hall No. 01, SATHYABAMA", icon: MapPin },
   { label: "TEAM COMPOSITION", value: "4–6 FINALISTS PER TEAM", icon: Users },
   { label: "FINAL ROUND FEE", value: "₹250 / PARTICIPANT", icon: Zap },
 ];

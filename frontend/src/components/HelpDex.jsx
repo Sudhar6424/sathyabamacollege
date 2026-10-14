@@ -37,7 +37,7 @@ const faqs = [
   {
     question: "Where will the final round be conducted?",
     answer:
-      "The final round will be conducted at the Indoor Auditorium, Sathyabama Institute of Science and Technology, Chennai.",
+      "The final round will be conducted at the Dr. Remibai Jeppiaar Auditorium - Hall No. 01, Sathyabama Institute of Science and Technology, Chennai.",
   },
   {
     question: "Will food be provided?",

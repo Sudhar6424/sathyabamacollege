@@ -30,7 +30,7 @@ const pad = (value) => String(value ?? 0).padStart(2, "0");
 
 const details = [
   { label: "DATE", value: "4–5 NOV 2026", icon: CalendarDays },
-  { label: "VENUE", value: "INDOOR AUDITORIUM", icon: MapPin },
+  { label: "VENUE", value: "Dr. Remibai Jeppiaar Auditorium - Hall No. 01", icon: MapPin },
   { label: "TEAM SIZE", value: "4–6 MEMBERS", icon: Users },
   { label: "DURATION", value: "24 HOURS", icon: Clock3 },
 ];
@@ -141,7 +141,7 @@ function HeroVisual() {
 
           <div className="home-visual-caption">
             <strong><Sparkles size={12} /> SATHYABAMA INSTITUTE OF SCIENCE AND TECHNOLOGY</strong>
-            <small>INDOOR AUDITORIUM · CHENNAI, TAMIL NADU</small>
+            <small>Dr. Remibai Jeppiaar Auditorium - Hall No. 01 · CHENNAI, TAMIL NADU</small>
           </div>
         </div>
       </div>

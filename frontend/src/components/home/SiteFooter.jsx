@@ -68,7 +68,7 @@ export default function SiteFooter() {
             <h4>VENUE &amp; SUPPORT</h4>
             <div className="home-footer-venue">
               <MapPin size={15} />
-              <div><strong>Indoor Auditorium</strong><small>Sathyabama Institute of Science and Technology, Chennai</small></div>
+              <div><strong>Dr. Remibai Jeppiaar Auditorium - Hall No. 01</strong><small>Sathyabama Institute of Science and Technology, Chennai</small></div>
             </div>
             <a href="#contact" className="home-footer-coordinators">View Event Coordinators &amp; Faculty</a>
             <small className="home-footer-partners-label">ASSOCIATE PARTNERS:</small>
