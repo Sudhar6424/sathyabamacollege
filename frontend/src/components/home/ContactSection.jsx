@@ -67,7 +67,7 @@ export default function ContactSection() {
         <div className="home-venue">
           <div className="home-venue-main">
             <small className="home-panel-label"><MapPin size={14} /> OFFICIAL EVENT VENUE</small>
-            <h3>Indoor Auditorium, Sathyabama</h3>
+            <h3>Dr. Remibai Jeppiaar Auditorium - Hall No. 01, Sathyabama</h3>
             <address>
               Sathyabama Institute of Science and Technology (Deemed to be University)<br />
               Jeppiaar Nagar, Rajiv Gandhi Salai (OMR),<br />
