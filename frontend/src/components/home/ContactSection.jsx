@@ -1,14 +1,8 @@
-import { Building2, ExternalLink, GraduationCap, Info, MapPin, Phone, Users } from "lucide-react";
+import { ExternalLink, GraduationCap, Info, MapPin, Phone, Users } from "lucide-react";
 import { InstagramButton, InstagramIcon, LinkedInIcon } from "./SocialIcons";
 
-const officials = [
-  { name: "Dr. Mariazeena Johnson", role: "Chancellor" },
-  { name: "Dr. Marie Johnson", role: "President" },
-  { name: "Dr. S. Maria Bernadette Arul Selvan", role: "Vice President" }, 
-];
-
 const faculty = [
-  { name: "Dr. R. Aroul Canessane", role: "Head of the Department — MCA" },
+  { name: "Dr. R. AROUL CANESSANE", role: "Head of the Department — MCA" },
   { name: "Dr. P. Tamilselvi", role: "Faculty Organizer" },
   { name: "Dr. R. Rajeshwari", role: "Faculty Organizer" },
   { name: "Dr. J. Palani Meera", role: "Faculty Organizer" },
@@ -49,11 +43,6 @@ export default function ContactSection() {
         </header>
 
         <div className="home-contact-grid">
-          <div className="home-contact-column">
-            <h3><Building2 size={16} /> UNIVERSITY OFFICIALS</h3>
-            <ul>{officials.map((person) => <Person key={person.name} {...person} tone="cyan" />)}</ul>
-          </div>
-
           <div className="home-contact-column">
             <h3><GraduationCap size={16} /> FACULTY ORGANIZERS</h3>
             <ul>{faculty.map((person) => <Person key={person.name} {...person} tone="cyan" />)}</ul>
