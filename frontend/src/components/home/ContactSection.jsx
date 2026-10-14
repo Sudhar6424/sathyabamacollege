@@ -8,7 +8,7 @@ const officials = [
 ];
 
 const faculty = [
-  { name: "Dr. R. AROUL CANESSANE", role: "Head of the Department — MCA" },
+  { name: "Dr. R. Aroul Canessane", role: "Head of the Department — MCA" },
   { name: "Dr. P. Tamilselvi", role: "Faculty Organizer" },
   { name: "Dr. R. Rajeshwari", role: "Faculty Organizer" },
   { name: "Dr. J. Palani Meera", role: "Faculty Organizer" },
