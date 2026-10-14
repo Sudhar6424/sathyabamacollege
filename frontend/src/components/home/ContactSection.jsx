@@ -4,11 +4,11 @@ import { InstagramButton, InstagramIcon, LinkedInIcon } from "./SocialIcons";
 const officials = [
   { name: "Dr. Mariazeena Johnson", role: "Chancellor" },
   { name: "Dr. Marie Johnson", role: "President" },
-  { name: "Dr. S. Maria Bernadette Arul Selvan", role: "Vice President" },
-  { name: "Dr. R. AROUL CANESSANE", role: "Head of the Department — MCA" },
+  { name: "Dr. S. Maria Bernadette Arul Selvan", role: "Vice President" }, 
 ];
 
 const faculty = [
+  { name: "Dr. R. AROUL CANESSANE", role: "Head of the Department — MCA" },
   { name: "Dr. P. Tamilselvi", role: "Faculty Organizer" },
   { name: "Dr. R. Rajeshwari", role: "Faculty Organizer" },
   { name: "Dr. J. Palani Meera", role: "Faculty Organizer" },
